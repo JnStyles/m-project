@@ -1,0 +1,13 @@
+/**index.wxss**/
+.container swiper {
+  height: 300rpx;
+  overflow: hidden;
+}
+
+.slide-image {
+  width: 100%;
+  height: 100%;
+}
+.title{
+  margin-top: 30rpx;
+}

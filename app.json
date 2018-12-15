@@ -1,0 +1,32 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/active/active"
+  ],
+  "tabBar": {
+    "color": "#7e8387",
+    "selectedColor": "#40af36",
+    "borderStyle": "#bfbfc3",
+    "list": [
+      {
+        "selectedIconPath": "images/1_1.png",
+        "iconPath": "images/1_0.png",
+        "pagePath": "pages/index/index",
+        "text": "美图"
+      },
+      {
+        "selectedIconPath": "images/2_1.png",
+        "iconPath": "images/2_0.png",
+        "pagePath": "pages/active/active",
+        "text": "活动"
+      }
+    ]
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  }
+}

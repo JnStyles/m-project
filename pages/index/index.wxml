@@ -1,0 +1,12 @@
+<!--index.wxml-->
+<view class="container">
+  <!-- <swiper circular="true" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" indicator-active-color='rgb(255, 255, 255)'>
+    <swiper-item bindtap='goVote'>
+      <image src="../../images/1_0.png" class="slide-image" />
+    </swiper-item>
+  </swiper> -->
+  <image src='../../images/timg.jpg'></image>
+  <view class='title'>武安种睫毛，美甲。</view>
+  <view>地址:武安新世纪天天步行街俪妍美业</view>
+  <view>电话：18731027089</view>
+</view>

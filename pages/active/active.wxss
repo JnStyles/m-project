@@ -1,0 +1,4 @@
+/* pages/active/active.wxss */
+.title{
+  margin-top: 30rpx;
+}
