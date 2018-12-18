@@ -2,7 +2,9 @@
   "pages": [
     "pages/index/index",
     "pages/logs/logs",
-    "pages/active/active"
+    "pages/active/active",
+    "pages/test/test",
+    "pages/test/test2"
   ],
   "tabBar": {
     "color": "#7e8387",
@@ -28,5 +30,15 @@
     "navigationBarBackgroundColor": "#fff",
     "navigationBarTitleText": "WeChat",
     "navigationBarTextStyle": "black"
+  },
+  "plugins": {
+    "calendar": {
+      "version": "1.2.1",
+      "provider": "wx23a9cef3522e4f7c"
+    },
+    "video": {
+      "version": "1.2.4",
+      "provider": "wxa75efa648b60994b"
+    }
   }
 }

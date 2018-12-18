@@ -1,0 +1,24 @@
+<!--pages/test/test.wxml-->
+
+<!-- calendar  api地址 https://mp.weixin.qq.com/wxopen/plugindevdoc?appid=wx23a9cef3522e4f7c&token=1314002831&lang=zh_CN -->
+<view class='box'>
+  <view class='calendar'>
+    <!-- bindchooseDate	  点击主标题 -->
+    <!-- bindgotoday	    点击返回今天按钮 -->
+    <!-- bindselectDate   选择日期 -->
+    <calendar 
+      header_show='{{header_show}}' 
+      remark_show='{{remark_show}}' 
+      remark_style='{{remark_style}}' 
+      count_txt_user='{{count_txt_user}}' 
+      speciallist='{{speciallist}}' 
+      weekheight='{{weekheight}}' 
+      txt_style='txt_style' 
+      active-coloro='active-coloro' 
+      bindselectDate='selectDate'
+      bindnextMonth='nextMonth' 
+      bindprevMonth='prevMonth' 
+      bindchooseDate='chooseDate' 
+      bindgotoday='todayDate' />
+  </view>
+</view>

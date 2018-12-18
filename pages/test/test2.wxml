@@ -1,0 +1,11 @@
+<!--pages/test/test2.wxml-->
+<view class='box'>
+    <txv-video 
+      vid="e0354z3cqjp"   
+      playerid="txv1" 
+      width="100%"    
+      height="{{'auto'}}" 
+      autoplay="{{true}}"> 
+      <cover-view class='txv-video-slot'>video slot</cover-view>
+  </txv-video>
+</view>

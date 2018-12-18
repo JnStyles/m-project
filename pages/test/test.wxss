@@ -1,0 +1,9 @@
+/* pages/test/test.wxss */
+.txt_style{
+  color: red;
+}
+
+.active-coloro {
+  color: #fff;
+  background: #188be4;
+}
